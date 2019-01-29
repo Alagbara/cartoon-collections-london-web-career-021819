@@ -7,8 +7,8 @@ end
 
 def summon_captain_planet(planeteer)
   planeteer.map do|planet| 
-    planet.capitalize . join"!"
-    
+    planet.capitalize
+    puts "#{planet}!"
  end
 end
 
